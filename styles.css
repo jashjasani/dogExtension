@@ -1,0 +1,30 @@
+body{
+    width: 320px; 
+    height: 320px;
+    background-image: linear-gradient(to right, rgb(184, 227, 184), rgb(247, 247, 206));
+}
+
+.first div {
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.second{
+    width: 320px; 
+    height: 320px;
+    display: none;
+    white-space: nowrap;
+    margin: 2px;
+}
+
+.second div{
+    width: 320px;
+    height: 320px;
+}
+
+
